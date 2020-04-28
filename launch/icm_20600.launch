@@ -1,0 +1,7 @@
+<launch>
+    <node name="imu_publish" pkg="imu_node" type="imu_node_publish" output="screen" >
+    	<param name="serial_port" type="string" value="/dev/ttyUSB0"/>
+    </node>
+</launch>
+
+
